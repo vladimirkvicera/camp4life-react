@@ -18,7 +18,7 @@ export default function TripCard({ title, description, image, imageAlt, path, pu
             <p className="tile__trip-text">{description}</p>
           </div>
           <div className="tile__img">
-            <img className="tile__act-img" src={`/images/${image}`} alt={imageAlt} />
+            <img className="tile__act-img" src={`${import.meta.env.BASE_URL}images/${image}`} alt={imageAlt} />
           </div>
         </div>
       </Link>
@@ -33,7 +33,7 @@ export default function TripCard({ title, description, image, imageAlt, path, pu
           <p className="tile__trip-text">{description}</p>
         </div>
         <div className="tile__img">
-          <img className="tile__act-img" src={`/images/${image}`} alt={imageAlt} />
+          <img className="tile__act-img" src={`${import.meta.env.BASE_URL}images/${image}`} alt={imageAlt} />
         </div>
       </div>
     </a>

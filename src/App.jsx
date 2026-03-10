@@ -11,7 +11,7 @@ import './style.css'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/camp4life-react/">
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />

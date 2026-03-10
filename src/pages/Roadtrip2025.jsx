@@ -21,7 +21,7 @@ export default function Roadtrip2025() {
 
       <TripStop id="Zastavka1" title="Zastávka 1" color={false}>
         <div className="stop__text-picture">
-          <img className="stop__img stop__img--left" src="/images/Clip2Comic-macarons-brown.jpeg" alt="Zastávka 1" />
+          <img className="stop__img stop__img--left" src={`${import.meta.env.BASE_URL}images/Clip2Comic-macarons-brown.jpeg`} alt="Zastávka 1" />
           <p>Doplňte text o první zastávce.</p>
         </div>
       </TripStop>

@@ -55,7 +55,7 @@ const trips = [
     image: 'Clip2Comic-macarons-brown.jpeg',
     imageAlt: 'makronky',
     path: '/roadtrips/2025',
-    published: true,
+    published: false,
   },
 ]
 

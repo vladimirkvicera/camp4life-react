@@ -5,7 +5,7 @@ export default function Layout() {
     <div className="container">
       <header className="header">
         <Link to="/">
-          <img className="logo" src="/images/logo.svg" alt="logo Camp4life" width="100" />
+          <img className="logo" src={`${import.meta.env.BASE_URL}images/logo.svg`} alt="logo Camp4life" width="100" />
         </Link>
 
         <nav className="menu">

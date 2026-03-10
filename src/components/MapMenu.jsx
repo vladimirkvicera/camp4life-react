@@ -7,7 +7,7 @@ export default function MapMenu({ mapImage, mapAlt, stops }) {
   return (
     <div className="map-menu">
       <figure className="map">
-        <img className="map__img" src={`/images/${mapImage}`} alt={mapAlt} />
+        <img className="map__img" src={`${import.meta.env.BASE_URL}images/${mapImage}`} alt={mapAlt} />
         <figcaption className="map__capt">Ilustrační mapka</figcaption>
       </figure>
 
