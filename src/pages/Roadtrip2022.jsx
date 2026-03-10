@@ -8,6 +8,10 @@ const stops = [
   { id: 'LeGrandCrohot', label: 'Le Grand Crohot' },
   { id: 'SoulacSurMer', label: 'Soulac-sur-Mer' },
   { id: 'IleOleron', label: "Ile d'Oléron" },
+  { id: 'PevnostBoyard', label: 'Pevnost Boyard' },
+  { id: 'Saumur', label: 'Saumur' },
+  { id: 'SullySurLoire', label: 'Sully-sur-Loire' },
+  { id: 'Legoland', label: 'Legoland' },
 ]
 
 export default function Roadtrip2022() {
@@ -60,7 +64,42 @@ export default function Roadtrip2022() {
       <TripStop id="IleOleron" title="Ile d'Oléron" color={false}>
         <div className="stop__text-picture">
           <img className="stop__img stop__img--left" src={`${import.meta.env.BASE_URL}images/Clip2Comic-macarons-brown.jpeg`} alt="Ile d'Oléron" />
-          <p></p>
+          <p>Naše další zastávka: Île d'Oléron. Do Royanu jedeme trajektem — ušetříme si tím návrat po mostě přes Gironde a získáme víc času na objevování ostrova. Během cesty voláme do kempu Huttopia Les Chênes Verts (<CopyCoords coords="45.8862778N, 1.2736611W" />). Máme dobrou zkušenost s řetězcem Huttopia: když zavoláme během dne a oznámíme příjezd, často nám místo rezervují bezplatně. Tentokrát se nám místo podařilo získat. Ovšem při příjezdu nás překvapili tím, že pro velikost našeho bydlíku místo nemají. Po krátké debatě jsem jim demonstroval, že se na plácek vejdeme — auto trochu zapíchl do křoví a bylo to cajk. Typická „né to se tam nevejde / ale vejde / oups / vidíš" situace s happy endem.</p>
+          <p>Na ostrově nás lákaly hlavně pláže a surf. Vyrazili jsme na kolech na sever a na oběd zastavili v restauraci L'Assiette Du Capitaine (<CopyCoords coords="45.9155394N, 1.3306847W" />) — mořské plody vynikající. Většina zátok byla klidná a mělká; místní hlídka nám potvrdila, že na ostrově jsou i skvělé surfové místa. Když jsme se vrátili do kempu, zahlédli jsme surfaře se prknem a vyrazili za ním — chvíli nás obcházel, až nakonec sjel z cyklostezky a dovedl nás na fantastické místo (<CopyCoords coords="45.8697803N, 1.2586803W" />). Klidné moře, a přesto každých pár minut přicházela velká vlna ideální k surfování — prostě pecka. Poté jsme se vrátili pro děti a sledovali rozvernou plážovou scénu: jedna paní se pokoušela vlézt do vody, vlna jí srolovala a vyplivla bez horní části plavek. Vše brala s humorem. Nedaleko kempu je pak mělká, klidná pláž, výborná pro rodiny s dětmi.</p>
+          <p>Druhý den jsme projeli ostrov na opačnou stranu. Tam koupání to nebylo tak příjemné, ale krajina a trasa stály za to. Cestou jsme projížděli mezi solnými pánvemi a může se vám po cestě naskytnout stánek s ústřicemi. Oběd jsme si dali v Le Café de la Place (<CopyCoords coords="45.8867625N, 1.1958931W" />). Nakonec jsme pobyt o pár dní prodloužili a udělali z něj pohodové odpočinkové soustředění plné kol, moře a místních pochoutek.</p>
+        </div>
+      </TripStop>
+      <TripStop id="PevnostBoyard" title="Pevnost Boyard" color={true}>
+        <div className="stop__text-picture">
+          <img className="stop__img stop__img--right" src={`${import.meta.env.BASE_URL}images/Clip2Comic-macarons-brown.jpeg`} alt="Pevnost Boyard" />
+          <p>Naším dalším cílem byla pevnost Boyard, která stojí severně od ostrova Île d'Oléron. Zastavili jsme v Boyardville, odkud vyplouvají výlety k pevnosti. Místo je turistické, ale najdete tu několik možností denního parkování pro obytné vozy. Ukazatelé vás navedou. Rezervovali jsme si plavbu a nalodili se — cestu zpříjemňovala ikonická hudba známé televizní soutěže. Do pevnosti samotné se bohužel nedá vstoupit, plavby jsou pouze okružní, protože objekt je soukromý a nepřístupný veřejnosti. I tak to byl krásný den a ještě jsme se krátce vylodili na ostrově Île d'Aix.</p>
+          <p>Nakonec jsme objevili příjemný stellplatz připojený ke kempu Camping Fort Royer (<CopyCoords coords="45.9617706N, 1.2462789W" />), klidné místo s možností využít sociální zařízení kempu.</p>
+          <p>Myšlenka pevnosti vznikla už za vlády Ludvíka XIV., ale realizace byla kvůli technickým a finančním překážkám odkládána. Stavba začala v roce 1801 za Napoleona I. a byla dokončena až kolem roku 1857. Pevnost s oválným půdorysem má masivní kamenné zdi a několik pater s kasárnami, sklady a dělostřeleckými postaveními. Výstavba na mělčině byla technicky náročná a vyžádala obrovské množství kamene a speciálních zakládacích technik. Ačkoliv měla být moderní obrannou stavbou své doby, rychlý vývoj dělostřelectva její vojenský význam snížil; v 19. a na počátku 20. století sloužila i jako posádka, vězení či sklad munice.</p>
+        </div>
+      </TripStop>
+      <TripStop id="Saumur" title="Saumur" color={false}>
+        <div className="stop__text-picture">
+          <img className="stop__img stop__img--left" src={`${import.meta.env.BASE_URL}images/Clip2Comic-macarons-brown.jpeg`} alt="Saumur" />
+          <p>Ráno už nabíráme kurz domov. Ale pozor, ještě nekončíme. Další zastávka je v našem oblíbeném řetězci, Huttopia Saumur (<CopyCoords coords="47.2933211N, 0.1419081W" />). Na oběd zastavujeme po cestě na zajímavém místě. Taková ta hodně ospalá vesnice ve vnitrozemí Francie, ale tanhle restaurace byla opravdu skvělá: Auberge de l'Étain (<CopyCoords coords="45.9609375N, 0.8219403W" />). A ty dezerty!</p>
+          <p>Kemp Huttopia je jako vždy zahlcen zelení. Do města vede cyklostezka podél řeky La Loire, ovšem z větší části sdílená se silnicí. Podél cesty je pak několik zajímavých míst, kde se dá ochutnat a případně nakoupit víno šumivé či tiché. Prošli jsme město a poobědvali v restauraci Le CRISTAL Restaurant (<CopyCoords coords="47.2600411N, 0.0751100W" />).</p>
+          <p>Saumur leží na řece Loire v regionu Pays de la Loire a je součástí údolí řeky Loire zapsaného na seznamu UNESCO. Město je známé svým hradem, vínem, jezdeckou tradicí a podzemními „troglodytickými" prostorem. Hrad Château de Saumur pochází z 10.–11. stol. a byl postupně přestavován, sloužil jako pevnost, sídlo šlechticů i vězení. Dnes je dominantou města a sídlem muzeí. Saumur hrálo strategickou roli díky poloze na Loire, během středověku i novověku tu probíhaly vojenské a obchodní aktivity. Místní stavební materiál – tuffeau (měkký vápencový kámen) formoval architekturu a umožnil vznik rozsáhlých podzemních prostor. Oblast Saumur patří mezi významné vinařské oblasti (AOC Saumur, Saumur‑Champigny), vína jsou převážně z odrůd Chenin Blanc a Cabernet Franc, vyrábí se i Crémant de Loire, šumivé víno.</p>
+        </div>
+      </TripStop>
+      <TripStop id="SullySurLoire" title="Sully-sur-Loire" color={true}>
+        <div className="stop__text-picture">
+          <img className="stop__img stop__img--right" src={`${import.meta.env.BASE_URL}images/Clip2Comic-macarons-brown.jpeg`} alt="Sully-sur-Loire" />
+          <p>Naší další zastávkou je Sully‑sur‑Loire. Po cestě se zastavujeme v klášteře Abbaye de Fontevraud; parkujeme na místě pro obytné vozy (<CopyCoords coords="47.1845119N, 0.0494367E" />). Nocovat tu neplánujeme, ale stellplatz nabízí servisní zázemí pro obytná auta.</p>
+          <p>Abbaye de Fontevraud patří k nejrozsáhlejším a nejlépe dochovaným cisterciáckým souborům v Evropě. Klášter založil v roce 1101 Robert z Arbrisselu jako společenství sester i mnichů pod vedením jediné převorky — netypický model pro svou dobu. Díky podpoře rodu Anjou‑Plantagenêt klášter rychle získal význam a bohatství, v areálu jsou pohřbeni členové dynastie Plantagenêt, včetně Jindřicha II., Eleonory Akvitánské a jejich syna Richarda Lví srdce. Po zrušení za Francouzské revoluce sloužil objekt například jako věznice. Památkové obnovy proběhly v 19.–20. století. Zajímavé jsou krypty, kapitula, klášterní zahrady a rozsáhlé prostory vytesané z místního tuffeau. Po návštěvě jsme si dali oběd v restauraci Chez Mimie Fontevraud (<CopyCoords coords="47.1819539N, 0.04963E" />) a pokračovali dál.</p>
+          <p>Kemp Le Jardin de Sully (<CopyCoords coords="47.7708617N, 2.3627272E" />) je příjemné ubytování u Loiry, jen pár minut pěšky od vodního hradu Château de Sully‑sur‑Loire. Opačným směrem vede nesdílená cyklostezka směrem ke klášteru Fleury ve Saint‑Benoît‑sur‑Loire. Klášter Fleury (Saint‑Benoît‑sur‑Loire) má kořeny v 7.–8. století a dochovaná románská bazilika pochází z 11.–12. století; historicky uchovával relikvie sv. Benedikta a byl významným duchovním centrem.</p>
+          <p>V okolí nás zaujala vegetariánská restaurace À la table des célestes (<CopyCoords coords="47.8106247N, 2.3059856E" />), dobrá volba pro lehčí jídlo po dni stráveném památkami.</p>
+        </div>
+      </TripStop>
+      <TripStop id="Legoland" title="Legoland" color={false}>
+        <div className="stop__text-picture">
+          <img className="stop__img stop__img--left" src={`${import.meta.env.BASE_URL}images/Clip2Comic-macarons-brown.jpeg`} alt="Legoland" />
+          <p>Po roční pauze se vracíme k modelu zábava nakonec. Poslední zastávkou je LEGOLAND Deutschland v Německu. Park nabízí pouze denní parkování pro obytné vozy (<CopyCoords coords="48.4254781N, 10.2957756E" />), proto přespáváme před cílem na stellplatzu Weilheim an der Teck (<CopyCoords coords="48.6205217N, 9.5351864E" />). Vyřešení platby nám zabralo chvilku — platí se přes aplikaci. Nainstaloval jsem si dvě, než to klaplo. Alternativou je platba na nejbližší benzince, ale ta musí být otevřená při příjezdu. Stellplatz je příjemný a klidný.</p>
+          <p>Samotný LEGOLAND je ideální především pro menší děti — očekávali jsme více technických atrakcí a zábavy pro dospělé, navíc bylo horko. Park jsme opustili pozdě odpoledne a vyrazili směr domov.</p>
+          <p>Poslední noc trávíme na Festplatz Schwandorf (<CopyCoords coords="49.3318547N, 12.1020947E" />). To, co vypadalo jako příjemný plácek u řeky bylo vykoupeno množstvím komárů a vajglů na zemi. No co už no. Jdeme spát.</p>
         </div>
       </TripStop>
     </>
