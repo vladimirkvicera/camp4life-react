@@ -19,7 +19,7 @@ export default function Layout() {
                 <Link className="dropdown__link" to="/roadtrips/2019">Roadtrip 2019</Link>
                 <Link className="dropdown__link" to="/roadtrips/2021">Roadtrip 2021</Link>
                 <Link className="dropdown__link" to="/roadtrips/2022">Roadtrip 2022</Link>
-                <span className="dropdown__link" style={{color: 'silver', cursor: 'default'}}>Roadtrip 2023</span>
+                <Link className="dropdown__link" to="/roadtrips/2023">Roadtrip 2023</Link>
                 <span className="dropdown__link" style={{color: 'silver', cursor: 'default'}}>Roadtrip 2024</span>
                 <Link className="dropdown__link" to="/roadtrips/2025">Roadtrip 2025</Link>
               </div>
