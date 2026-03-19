@@ -17,6 +17,7 @@ body {
     font-size: 16px;
     color: var(--color-dark);
     background-color: var(--color-light);
+    overflow-x: hidden;
 }
 
 h1, h2, h3 {
@@ -27,6 +28,11 @@ h1, h2, h3 {
 h1 {
     font-size: 64px;
     font-weight: 700;
+}
+@media (max-width: 767px) {
+    h1 {
+        font-size: clamp(28px, 9vw, 48px);
+    }
 }
 h2 {
     font-size: 36px;
@@ -85,6 +91,12 @@ h2 {
     text-decoration: none;
     font-family: var(--font-base);
     font-size: 18px;
+}
+@media (max-width: 767px) {
+    .menu__link {
+        padding: 10px 12px;
+        font-size: 15px;
+    }
 }
 .menu__link:hover, .menu__dropdown:hover .dropdown__button, .dropdown__link:hover {
     background-color: var(--color-primary);
@@ -309,6 +321,9 @@ h2 {
 @media (max-width: 767px) {
     .stop__img--hidden {
         display: none;
+    }
+    .stop__img {
+        max-width: 100% !important;
     }
 }
 @media (min-width: 768px) {
