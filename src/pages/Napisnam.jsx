@@ -1,6 +1,6 @@
 export default function Napisnam() {
   return (
-    <form className="form" action="https://submit-form.com/EiSoikcu7" method="post">
+    <form className="form" action="https://submit-form.com/8VDdh9XbW" method="post">
       <h2 className="main-subtitle main-subtitle--form">
         Zanechte nám svůj komentář nebo tip na cestu nebo zastávku či cokoli dalšího chcete.
       </h2>

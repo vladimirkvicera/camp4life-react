@@ -403,6 +403,101 @@ h2 {
 .form__button:hover {
     background-color: var(--color-secondary);
 }
+/* itinerary submission form */
+.itinerary-form {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.itinerary-form__intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.itinerary-stop {
+    margin: 0 -20px;
+    padding: 20px 40px;
+}
+
+.itinerary-stop--color {
+    background-color: var(--color-light);
+}
+
+.itinerary-stop__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.itinerary-stop__title {
+    margin: 0;
+    text-align: left;
+    font-family: var(--font-special);
+    color: var(--color-primary);
+    font-size: 24px;
+}
+
+.itinerary-stop__remove {
+    background: none;
+    border: 1px solid silver;
+    border-radius: 8px;
+    padding: 4px 12px;
+    font-size: 14px;
+    font-family: var(--font-base);
+    color: var(--color-secondary);
+    cursor: pointer;
+}
+
+.itinerary-stop__remove:hover {
+    background-color: var(--color-secondary);
+    color: white;
+    border-color: var(--color-secondary);
+}
+
+.form__input--file {
+    padding: 6px;
+    cursor: pointer;
+}
+
+.itinerary-form__file-count {
+    margin: 4px 0 0 0;
+    font-size: 14px;
+    color: var(--color-secondary);
+}
+
+.itinerary-form__captcha {
+    margin-bottom: 24px;
+}
+
+.itinerary-form__captcha-error {
+    margin-top: 8px;
+    color: #d32f2f;
+    font-size: 14px;
+}
+
+.itinerary-form__actions {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+
+.form__button--secondary {
+    background-color: white;
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+}
+
+.form__button--secondary:hover {
+    background-color: var(--color-light);
+}
+
 /* cestování ve Francii */
 .guide {
     margin: 0 -20px 0 -20px;

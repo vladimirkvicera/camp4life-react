@@ -70,7 +70,7 @@ export default function Home() {
 
       <p>Neméně důležité je také sdílet tipy na restaurace, bistra nebo jiné gastronomické zážitky. Hledání takových míst není vždy jednoduché, a spoléhání se jen na hodnocení na Google Maps nám někdy nepřineslo očekávané výsledky. Proto jsme se rozhodli sestavit tuto platformu, kde budeme sdílet vlastních zkušenosti a itineráře, abychom vám usnadnili plánování vaší cesty.</p>
 
-      <p>Budeme velmi rádi, pokud i vy přispějete svými zážitky a tipy, a pomůžete tak vytvořit pestrou a inspirativní komunitu cestovatelů. Těšíme se na vaše příběhy, fotografie a doporučení! <Link className="random-ref" to="/napisnam">Napište nám!</Link></p>
+      <p>Budeme velmi rádi, pokud i vy přispějete svými zážitky a tipy, a pomůžete tak vytvořit pestrou a inspirativní komunitu cestovatelů. Těšíme se na vaše příběhy, fotografie a doporučení! <Link className="random-ref" to="/napisnam">Napište nám!</Link> Nebo použijte <Link className="random-ref" to="/posli-itinerar">formulář</Link> a pošlete svůj itinerář!</p>
 
       <div className="tiles">
         {trips.map((trip) => (

@@ -8,6 +8,7 @@ import Roadtrip2023 from './pages/Roadtrip2023.jsx'
 import Roadtrip2025 from './pages/Roadtrip2025.jsx'
 import CestovaniVeFrancii from './pages/CestovaniVeFrancii.jsx'
 import Napisnam from './pages/Napisnam.jsx'
+import PosliItinerar from './pages/PosliItinerar.jsx'
 import './style.css'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="/roadtrips/2025" element={<Roadtrip2025 />} />
           <Route path="/cestovani" element={<CestovaniVeFrancii />} />
           <Route path="/napisnam" element={<Napisnam />} />
+          <Route path="/posli-itinerar" element={<PosliItinerar />} />
         </Route>
       </Routes>
     </BrowserRouter>

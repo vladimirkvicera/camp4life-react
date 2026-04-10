@@ -44,8 +44,10 @@ export default function Roadtrip2023() {
 
       <TripStop id="Stop3" title="Albenga" color={false}>
         <div className="stop__text-picture">
-          <img className="stop__img stop__img--left" src={`${import.meta.env.BASE_URL}images/Clip2Comic-Macarons.jpeg`} alt="Stop 3" />
-          <p>Text zastávky 3.</p>
+          <img className="stop__img stop__img--left" src={`${import.meta.env.BASE_URL}images/Albenga.jpeg`} alt="Albenga" />
+          <p>A jedeme dál na jih — plánujeme několik nocí u moře v Itálii a vychutnat si italskou kuchyni. Ubytovali jsme se v kempu Campeggio Italia (<CopyCoords coords="44.0399558N, 8.2183294E" />) — příjemný keming s milou obsluhou. Teče tam pouze studená voda, na teplou se dá dokoupit čip. Zaujalo nás, že do kempu jezdí mnoho stálých hostů, někteří i přes 20 let a více generací, což mu dodává klidnou rodinnou atmosféru. Turín nás nijak zvlášť nenadchl, takže jsme byli rádi za moře a pohodu místa.</p>
+          <p>Okolí není ideální na výlety na kole, spíš na procházky a výlety do městečka. Doporučujeme kavárnu a restauraci Coffee Storming (<CopyCoords coords="44.0481097N, 8.2180494E" />) — tam jsme zajeli dvakrát. Výborně se najíte i v restauraci v kempu Brezza Albenga (<CopyCoords coords="44.0389833N, 8.2169244E" />). Naprostým gastronomickým zážitkem byla ovšem italská zmrzlina v La Casa del Gelato (<CopyCoords coords="44.0469325N, 8.2200531E" />) — pistáciová byla nejlepší, co jsem kdy ochutnal. Zajímavé bylo, že podruhé už mi tuto zmrzlinu prodat paní nechtěla a něco se mě snažila vysvětlit. Třikrát jsem jí zopakoval, že tu zmrzlinu fakt chci a jelikož jsme si nerozuměli, tak zakulila svýma černýma italskýma očima, pak je zvedla v sloup a zmrzlinu mě prodala. No a já naznal, že je čas se začít učit italsky.</p>
+          <p>Albenga se nazývala Albium Ingaunum a byla důležitým osídlením kmene Ingaunů už v předřímském období. Později se stala římským městem na trase Via Julia Augusta. Ve středověku tu sídlily bohaté rodiny, které stavěly obytné věže, podobně jako v Pise či San Gimignanu. Albenga měla původně desítky věží; dnes jich část stále dominuje panoramatu města. Město a okolí jsou známé produkcí zeleniny, zvláště slavné jsou albengské fialové artyčoky — Carciofo violetta di Albenga.</p>
         </div>
       </TripStop>
 
