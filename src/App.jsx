@@ -5,6 +5,7 @@ import Roadtrip2019 from './pages/Roadtrip2019.jsx'
 import Roadtrip2021 from './pages/Roadtrip2021.jsx'
 import Roadtrip2022 from './pages/Roadtrip2022.jsx'
 import Roadtrip2023 from './pages/Roadtrip2023.jsx'
+import Roadtrip2024 from './pages/Roadtrip2024.jsx'
 import Roadtrip2025 from './pages/Roadtrip2025.jsx'
 import CestovaniVeFrancii from './pages/CestovaniVeFrancii.jsx'
 import Napisnam from './pages/Napisnam.jsx'
@@ -21,6 +22,7 @@ function App() {
           <Route path="/roadtrips/2021" element={<Roadtrip2021 />} />
           <Route path="/roadtrips/2022" element={<Roadtrip2022 />} />
           <Route path="/roadtrips/2023" element={<Roadtrip2023 />} />
+          <Route path="/roadtrips/2024" element={<Roadtrip2024 />} />
           <Route path="/roadtrips/2025" element={<Roadtrip2025 />} />
           <Route path="/cestovani" element={<CestovaniVeFrancii />} />
           <Route path="/napisnam" element={<Napisnam />} />

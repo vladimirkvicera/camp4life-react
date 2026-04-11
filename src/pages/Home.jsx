@@ -38,6 +38,7 @@ const trips = [
     imageAlt: 'makronky',
     path: '/roadtrips/2023',
     published: true,
+    comingSoon: true,
   },
   {
     year: 2024,
@@ -46,7 +47,8 @@ const trips = [
     image: 'Clip2Comic-macarons-brown.jpeg',
     imageAlt: 'makronky',
     path: '/roadtrips/2024',
-    published: false,
+    published: true,
+    comingSoon: true,
   },
   {
     year: 2025,

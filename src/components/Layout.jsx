@@ -20,13 +20,24 @@ export default function Layout() {
                 <Link className="dropdown__link" to="/roadtrips/2021">Roadtrip 2021</Link>
                 <Link className="dropdown__link" to="/roadtrips/2022">Roadtrip 2022</Link>
                 <Link className="dropdown__link" to="/roadtrips/2023">Roadtrip 2023</Link>
-                <span className="dropdown__link" style={{color: 'silver', cursor: 'default'}}>Roadtrip 2024</span>
+                <Link className="dropdown__link" to="/roadtrips/2024">Roadtrip 2024</Link>
                 <Link className="dropdown__link" to="/roadtrips/2025">Roadtrip 2025</Link>
               </div>
             </div>
           </div>
           <Link className="menu__link" to="/cestovani">Cestování ve Francii</Link>
-          <Link className="menu__link" to="/napisnam">Napiš nám</Link>
+          <div className="menu__item">
+            <span className="menu__link">Napište nám</span>
+            <div className="menu__dropdown">
+              <button className="dropdown__button">
+                <i className="fa fa-caret-down"></i>
+              </button>
+              <div className="dropdown__content">
+                <Link className="dropdown__link" to="/napisnam">Zprávu</Link>
+                <Link className="dropdown__link" to="/posli-itinerar">Itinerář</Link>
+              </div>
+            </div>
+          </div>
         </nav>
       </header>
 

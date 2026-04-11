@@ -8,34 +8,30 @@ import { Link } from 'react-router-dom'
 //   imageAlt   - alt text
 //   path       - route path, e.g. "/roadtrips/2021"
 //   published  - if false, renders a "coming soon" overlay
-export default function TripCard({ title, description, image, imageAlt, path, published }) {
+export default function TripCard({ title, description, image, imageAlt, path, published, comingSoon }) {
+  const tileContent = (
+    <div className="tile">
+      <div className="tile-descr">
+        <h3 className="tile__trip-title">{title}</h3>
+        <p className="tile__trip-text">{description}</p>
+      </div>
+      <div className="tile__img">
+        <img className="tile__act-img" src={`${import.meta.env.BASE_URL}images/${image}`} alt={imageAlt} />
+      </div>
+    </div>
+  )
+
   if (published) {
     return (
-      <Link className="ref-tile" to={path}>
-        <div className="tile">
-          <div className="tile-descr">
-            <h3 className="tile__trip-title">{title}</h3>
-            <p className="tile__trip-text">{description}</p>
-          </div>
-          <div className="tile__img">
-            <img className="tile__act-img" src={`${import.meta.env.BASE_URL}images/${image}`} alt={imageAlt} />
-          </div>
-        </div>
+      <Link className={`ref-tile${comingSoon ? ' tile--coming-soon' : ''}`} to={path}>
+        {tileContent}
       </Link>
     )
   }
 
   return (
     <a className="ref-tile tile--coming-soon" href="#">
-      <div className="tile">
-        <div className="tile-descr">
-          <h3 className="tile__trip-title">{title}</h3>
-          <p className="tile__trip-text">{description}</p>
-        </div>
-        <div className="tile__img">
-          <img className="tile__act-img" src={`${import.meta.env.BASE_URL}images/${image}`} alt={imageAlt} />
-        </div>
-      </div>
+      {tileContent}
     </a>
   )
 }
