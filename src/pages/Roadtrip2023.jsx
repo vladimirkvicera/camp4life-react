@@ -8,7 +8,7 @@ const stops = [
   { id: 'Stop3', label: 'Albenga' },
   { id: 'Stop4', label: 'Nice' },
   { id: 'Stop5', label: 'Hyères' },
-  { id: 'Stop6', label: 'Camargue - Martigues' },
+  { id: 'Stop6', label: 'Camargue' },
   { id: 'Stop7', label: 'Fontvieille' },
   { id: 'Stop8', label: 'Europa Park Rust' },
 ]
@@ -53,22 +53,32 @@ export default function Roadtrip2023() {
 
       <TripStop id="Stop4" title="Nice" color={true}>
         <div className="stop__text-picture">
-          <img className="stop__img stop__img--right" src={`${import.meta.env.BASE_URL}images/Clip2Comic-macarons-brown.jpeg`} alt="Stop 4" />
-          <p>Text zastávky 4.</p>
+          <img className="stop__img stop__img--left" src={`${import.meta.env.BASE_URL}images/Nice2.jpeg`} alt="Koupání v Azurovém pobřeží" />
+          <img className="stop__img stop__img--right" src={`${import.meta.env.BASE_URL}images/Nice1.jpeg`} alt="Nice — Promenade des Anglais na kole" />
+          <p>Po pobřeží dál — tentokrát do Francie. Plán byl jednoduchý: najít ubytování někde v blízkosti Monaka nebo Nice. Jak to ale v praxi bývá, realita lehce překreslila mapu. U obou těchto měst není po kempu ani parkovišti pro obytná vozidla ani stopy, a tak jsme se ocitli ve Villeneuve-Loubet, kousek za Antibes.</p>
+          <p>Kemp La Vieille Ferme (<CopyCoords coords="43.6200722N, 7.1264206E" />) překvapil příjemným zázemím a hlavně polohou — pláž je odtud doslova pár minut pěšky. Ale to nejdůležitější přišlo hned při první návštěvě moře: ten odstín modré. To musíte to vidět na vlastní oči, abyste pochopili, proč si tahle část Středomoří vysloužila přívlastek „azurová".</p>
+          <p>Z kempu vede podél pobřeží nenápadná, ale výborně vedená cyklostezka — nesdílená s auty, takže naprosto bezpečná a příjemná. Trasa míří přímo do Nice. Po cestě lze kdykoliv zastavit, slézt dolů k moři a skočit do vody. Žádný spěch, žádné plánování — jen spontánní koupání tam, kde se zrovna zachce.</p>
+          <p>Nice samotné pak nabízí přesně to, co se od francouzského přímořského města čeká: nepřeberné množství restaurací, živou atmosféru a promenádu, kde čas plyne vlastním tempem.</p>
+          <p>Nice, původně řecká Nikaia založená kolem 4.–3. století př. n. l., je perla Francouzské riviéry známá svou slavnou Promenade des Anglais, malebným starým městem (Vieux Nice) s úzkými barevnými uličkami a trhem Cours Saleya, velkolepým karnevalem, bohatou uměleckou scénou (muzea Matisse a Chagall), a místními specialitami jako socca a salade niçoise; město, které bylo roku 1860 připojeno k Francii, nabízí panoramatické výhledy z Colline du Château, významné letiště Nice Côte d'Azur a unikátní směs francouzských, italských a ligurských vlivů.</p>
         </div>
       </TripStop>
 
       <TripStop id="Stop5" title="Hyères" color={false}>
         <div className="stop__text-picture">
-          <img className="stop__img stop__img--left" src={`${import.meta.env.BASE_URL}images/Clip2Comic-Macarons.jpeg`} alt="Stop 5" />
-          <p>Text zastávky 5.</p>
+          <img className="stop__img stop__img--left" src={`${import.meta.env.BASE_URL}images/Hyeres1.jpeg`} alt="Hyères — laguny s plameňáky" />
+          <img className="stop__img stop__img--right" src={`${import.meta.env.BASE_URL}images/Hyeres2.jpeg`} alt="Hyères — staré město" />
+          <p>A pokračujeme do Hyères, kde hlavní atrakcí jsou plameňáci. Náš preferovaný kemp měl plno, ubytovali jsme se proto v sousedním Camping Bernard (<CopyCoords coords="43.0998897N, 6.1677086E" />). Kemp je zelený a příjemný, ale velmi hlučný — každý večer probíhá animační program pro dospělé, který zní napříč areálem. Restaurace v kempu je vynikající, doporučujeme si večer rezervovat místo.</p>
+          <p>Ráno vyrážíme k plameňákům a zkoušíme, zda není někde lepší koupání než u kempu. Našli jsme dlouhou, malebnou pláž (<CopyCoords coords="43.0615906N, 6.1317672E" />) s parkováním na obou koncích; my jsme dorazili na kolech, uprostřed je přehodili přes malou dunu a byli téměř sami. Cestou lze pozorovat hejna plameňáků. Z pláže vede cyklostezka do centra Hyères, ale je částečně sdílená s frekventovanou silnicí. Existují však i klidnější, ale o něco delší trasy. Město samotné je malebné, s úzkými středověkými uličkami a spoustou obchodů, kde by si člověk dokázal představit, že si něco koupí. Ne takové ty turistické cetky. A tak naše dámy nakoupily plážové oblečení.</p>
+          <p>Hyères (Hyères‑les‑Palmiers) na Azurovém pobřeží, oblast osídlená už v antice, je proslulé svým mírným mikroklimatem a palmovými alejemi, které v 19. století přilákaly evropskou smetánku; malebné staré město Vieux Hyères s hradními zříceninami a úzkými uličkami kontrastuje s modernistickou Villou Noailles, zatímco v okolí najdete ostrovy Porquerolles a přírodní rezervaci Port‑Cros, soliny a laguny obývané plameňáky — ideální kombinace historie, přírody a středomořského života.</p>
         </div>
       </TripStop>
 
-      <TripStop id="Stop6" title="Camargue - Martigues" color={true}>
+      <TripStop id="Stop6" title="Camargue" color={true}>
         <div className="stop__text-picture">
-          <img className="stop__img stop__img--right" src={`${import.meta.env.BASE_URL}images/Clip2Comic-macarons-brown.jpeg`} alt="Stop 6" />
-          <p>Text zastávky 6.</p>
+          <img className="stop__img stop__img--left" src={`${import.meta.env.BASE_URL}images/Camargue2.jpeg`} alt="Camargue — kaktus" />
+          <img className="stop__img stop__img--right" src={`${import.meta.env.BASE_URL}images/Camargue1.jpeg`} alt="Camargue — pláž a útesy" />
+          <p>Čeká nás poslední zastávka u pobřeží, než změníme kurz na sever. Místo jsme našli v Camping Marius (<CopyCoords coords="43.3344608N, 5.0669911E" />). Kemp je velmi pěkně upravený, parcely jsou odděleny živými ploty, což zaručuje soukromí. Personál je vstřícný, dokonce kvůli nám ořezali větve, aby jsme mohli vjet s alkovnou. Ze zadní branky se dostanete přímo na útesy a po krátkém sestupu na malebnou písečnou pláž. Za slunečných dní bývá plná, ale podél pobřeží lze najít i klidné oblázkové zátoky. V kempu je také výborná restaurace. Okolí je spíše vhodné pro pěší procházky podél moře než cyklistiku. Oblast je známá svými impozantními calanques. Jsou to unikátní bílé vápencové skalní útvary připomínající úzké fjordy, které se zařezávají hluboko do pevniny, kontrastující s tyrkysově modrou a křišťálově čistou vodou.</p>
+          <p>Camargue je deltovitá oblast v jižní Francii u ústí Rhôny, známá svými rozsáhlými mokřady, slanými lagunami a písečnými plážemi. Je to důležité hnízdiště ptactva, zejména růžových plameňáků, domov typických bílých koní camarguais a černých býků, místo tradičního pasteveckého života gardians, s činnostmi jako chov dobytka, rybolov, těžba soli a pěstování rýže. Většina území je chráněna v Parc naturel régional de Camargue a je oblíbená pro pozorování ptáků, jízdu na koni a ekologický turismus.</p>
         </div>
       </TripStop>
 
