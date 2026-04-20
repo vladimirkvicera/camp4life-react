@@ -84,15 +84,22 @@ export default function Roadtrip2023() {
 
       <TripStop id="Stop7" title="Fontvieille" color={false}>
         <div className="stop__text-picture">
-          <img className="stop__img stop__img--left" src={`${import.meta.env.BASE_URL}images/Clip2Comic-Macarons.jpeg`} alt="Stop 7" />
-          <p>Text zastávky 7.</p>
+          <img className="stop__img stop__img--left" src={`${import.meta.env.BASE_URL}images/Clip2Comic-DeltaRhony.jpeg`} alt="Delta Rhôny" />
+          <img className="stop__img stop__img--right" src={`${import.meta.env.BASE_URL}images/Clip2Comic-Akvadukt.jpeg`} alt="Římský akvadukt" />
+          <p>A měníme kurz na sever. Ještě než jsme odrazili od pobřeží, projeli jsme deltu řeky Rhôny — divoké, bujné místo s travnatou vegetací a množstvím ptactva. Ubytovali jsme se v našem oblíbeném kempu Huttopia Fontvielle (<CopyCoords coords="43.7237156N, 4.7176811E" />).</p>
+          <p>Z kempu se snadno dojede do historického města Arles buď kratší cestou po cyklostezce, která vede část trasy po frekventované silnici, nebo oklikou po klidnějších menších silnicích — doporučuji druhou variantu. Cestou je možné se zastavit u římského akvaduktu (<CopyCoords coords="43.7055467N, 4.7217081E" />). Pro mě to bylo jedno z nejsilnějších zážitků. I když je akvadukt jen částečně zachovaný, takový malý kousek a rozbořený, místo je málo frekventované a chvíli jsme tam byli úplně sami. Překvapilo mě, že se po něm dá chodit. Akvadukt končí údolím a představa, jak jej před 2000 lety překlenul, byla fascinující.</p>
+          <p>Po obědě v příjemné restauraci La Tour de Pise v Arles (<CopyCoords coords="43.6758533N, 4.6261361E" />) jsme si prošli město. Arles má antické kořeny (římské Arelate) a řadu památek — amfiteátr, římské divadlo, termy a kostel sv. Trophima — které jsou součástí seznamu UNESCO. Město bylo významným přístavem na Rhôně, rozrostlo se ve středověku jako biskupské centrum a proslulo i jako inspirace Vincenta van Gogha. Dnes je Arles živé kulturní centrum s festivalem fotografie Les Rencontres d'Arles, bohatou provensálskou gastronomií a trhy, a je zároveň branou do Camargue se známými bílými koňmi a černými býky.</p>
         </div>
       </TripStop>
 
       <TripStop id="Stop8" title="Europa Park Rust" color={true}>
         <div className="stop__text-picture">
-          <img className="stop__img stop__img--right" src={`${import.meta.env.BASE_URL}images/Clip2Comic-macarons-brown.jpeg`} alt="Stop 8" />
-          <p>Text zastávky 8.</p>
+          <img className="stop__img stop__img--left" src={`${import.meta.env.BASE_URL}images/Clip2Comic-Avignon.jpeg`} alt="Avignon — pouliční muzika" />
+          <img className="stop__img stop__img--right" src={`${import.meta.env.BASE_URL}images/Clip2Comic-Europapark-stellplatz.jpeg`} alt="Europa Park — stellplatz Clip2Comic" />
+          <p>A už je před námi jen poslední zastávka — tradičně zábavný park pro děti. Ještě než tam dorazíme, načerpáme něco z historie v Avignonu. Kousek od historického centra je stellplatz Aire Camping‑car du Pont d'Avignon (<CopyCoords coords="43.9561333N, 4.7998136E" />), kde je možné parkovat i jen přes den. Prošli jsme město, navštívili Papežský palác, poobědvali výbornou paellu na náměstí a samozřejmě zašli na legendární most. Můj pokus o slevu při placení vstupu — „nedají nám 50 %, když z mostu zbyla jen polovina?" — prošel kupodivu s pobaveným úsměvem. Ve městě byl také festival pouliční muziky, což vytvořilo velmi příjemnou atmosféru.</p>
+          <p>Avignon, město na Rhôně v srdci Provence, proslulo jako sídlo papežů v letech 1309–1377, což zanechalo ohromný gotický Papežský palác, impozantní hradby a slavný částečně zachovalý Pont Saint‑Bénézet; historické jádro je na seznamu UNESCO. Dnes je Avignon pulzujícím kulturním centrem — každoroční Festival d'Avignon, galerie a trhy přitahují návštěvníky — a zároveň praktickou výchozí základnou pro objevování Provence a Camargue.</p>
+          <p>Odpoledne vyrážíme směrem k Europa‑Parku. Parkujeme na hezkém zeleném stellplatzu přímo pod hlavní atrakcí Silver Star (<CopyCoords coords="48.2721425N, 7.7153406E" />). V době, když jsme tam byli, to byla prostá louka s možností použít zázemí sousedního kempu. Místo prošlo rozsáhlou přestavbou, stellplatz je nyní nový a o kus dál.</p>
+          <p>A samotný park? Nabízí nepřeberné množství horských drah — vhodný jak pro velké, tak i pro malé děti. Dětem se to líbilo, a my to zase nějak přežili.</p>
         </div>
       </TripStop>
     </>

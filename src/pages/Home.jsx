@@ -34,11 +34,10 @@ const trips = [
     year: 2023,
     title: 'Road trip 2023',
     description: 'Na jih k moři přes Turín, Albenga, Nice, Hyeres, Martigues, Camargue a Avignon',
-    image: 'Clip2Comic-macarons-brown.jpeg',
-    imageAlt: 'makronky',
+    image: 'Clip2Comic-Akvadukt.jpeg',
+    imageAlt: 'Římský akvadukt',
     path: '/roadtrips/2023',
     published: true,
-    comingSoon: true,
   },
   {
     year: 2024,
